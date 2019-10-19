@@ -17,6 +17,9 @@ module.exports = {
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
     '.*\\.(vue)$': 'vue-jest',
   },
+  setupFiles: [
+    '<rootDir>/jest/nativescript-vue-stubs.js',
+  ],
   transformIgnorePatterns: [],
   collectCoverage: true,
   collectCoverageFrom: [
