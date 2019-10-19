@@ -14,6 +14,9 @@
       "version": "6.0.1"
     }
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "nativescript-theme-core": "^1.0.6",
     "nativescript-vue": "^2.4.0",
@@ -21,7 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
     "@vue/test-utils": "^1.0.0-beta.29",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.2",
