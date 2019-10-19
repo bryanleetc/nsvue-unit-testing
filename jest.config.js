@@ -1,6 +1,8 @@
 module.exports = {
   verbose: true,
   moduleFileExtensions: [
+    'android.js',
+    'ios.js',
     'js',
     'json',
     'vue',
@@ -18,6 +20,7 @@ module.exports = {
     '.*\\.(vue)$': 'vue-jest',
   },
   setupFiles: [
+    '<rootDir>/jest/typescript-helpers.js',
     '<rootDir>/jest/nativescript-vue-stubs.js',
   ],
   transformIgnorePatterns: [],
